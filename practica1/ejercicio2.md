@@ -2,7 +2,7 @@ a) `<!-- Código controlado el día 12/08/2009 →` <br>
 Este segmento de código es un comentario HTML y se coloca en cualquier parte del documento. Los comentarios no tienen ningún efecto en la representación visual de la página web y se utilizan para agregar notas y explicaciones para los desarrolladores. El texto en sí mismo no tiene elementos, etiquetas ni atributos.
 
 b) `<div id="bloque1">Contenido del bloque1</div>`<br>
-etiqueta: `<div></div>`
+etiqueta: `<div></div>`<br>
 atributos:<br>
 nombres: id<br>
 valor: bloque1
