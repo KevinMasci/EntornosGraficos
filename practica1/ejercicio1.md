@@ -31,3 +31,24 @@ Desde su creación, se han lanzado varias versiones de HTML, cada una con mejora
     - Independencia del medio: Las características deberían, cuando sea posible, funcionar en diferentes plataformas, dispositivos y medios.
     - Dar soporte a idiomas del mundo: debería admitir idiomas de todo el mundo.
     - Accesibilidad: diseñar características que sean accesibles a usuarios con discapacidades.
+
+# 3 En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y obsoleto?
+En las especificaciones de HTML, un elemento o atributo se considera **desaprobado** cuando se considera que **no se debe utilizar más, pero todavía se admite** por razones de compatibilidad con versiones anteriores del lenguaje. Esto significa que el elemento o atributo puede seguir funcionando en algunos navegadores, pero se recomienda no utilizarlo en nuevos proyectos, ya que podría ser eliminado en futuras versiones de HTML.
+
+Por otro lado, un elemento o atributo se considera **obsoleto** (también conocido como deprecated en inglés) cuando **ya no se admite en la especificación actual de HTML y se considera que no se debe utilizar en absoluto**. Los elementos o atributos obsoletos se han eliminado por completo de la especificación y pueden provocar errores o problemas de compatibilidad si se utilizan en un documento HTML.
+
+# 4. Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
+DTD (del inglés "Document Type Definition") es una declaración que define la estructura y los tipos de elementos que se pueden utilizar en un documento HTML.
+
+En la especificación de HTML 4.01, se contemplan tres tipos de DTDs:
+
+**Strict**: Este DTD define una versión estricta de HTML 4.01 en la que se prohíben todas las características obsoletas y se desaconseja el uso de elementos y atributos presentacionales. Esto ayuda a garantizar que el documento tenga una estructura clara y coherente.
+
+**Transitional**: Este DTD es una versión de HTML 4.01 que permite el uso de características obsoletas y elementos y atributos presentacionales, lo que facilita la transición de documentos HTML antiguos a HTML 4.01.
+
+**Frameset**: Este DTD se utiliza para documentos que contienen marcos. Es similar al DTD Transitional, pero incluye elementos y atributos adicionales que son necesarios para definir la estructura de marcos.
+
+# 5. Qué son los metadatos y cómo se especifican en HTML?
+Los metadatos son información adicional sobre el contenido de una página web, como el autor, la fecha de creación, las palabras clave, la descripción y la codificación de caracteres. Los metadatos se pueden especificar en HTML utilizando el elemento <meta>, que se coloca dentro de la sección <head> del documento HTML.
+
+El atributo name del elemento <meta> se utiliza para especificar el tipo de metadato, como author para el autor, keywords para las palabras clave y description para la descripción de la página. El atributo content se utiliza para especificar el valor del metadato.
