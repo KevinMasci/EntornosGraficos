@@ -49,6 +49,6 @@ En la especificación de HTML 4.01, se contemplan tres tipos de DTDs:
 **Frameset**: Este DTD se utiliza para documentos que contienen marcos. Es similar al DTD Transitional, pero incluye elementos y atributos adicionales que son necesarios para definir la estructura de marcos.
 
 # 5. Qué son los metadatos y cómo se especifican en HTML?
-Los metadatos son información adicional sobre el contenido de una página web, como el autor, la fecha de creación, las palabras clave, la descripción y la codificación de caracteres. Los metadatos se pueden especificar en HTML utilizando el elemento <meta>, que se coloca dentro de la sección <head> del documento HTML.
+Los metadatos son información adicional sobre el contenido de una página web, como el autor, la fecha de creación, las palabras clave, la descripción y la codificación de caracteres. Los metadatos se pueden especificar en HTML utilizando el elemento `<meta>`, que se coloca dentro de la sección `<head>` del documento HTML.
 
-El atributo name del elemento <meta> se utiliza para especificar el tipo de metadato, como author para el autor, keywords para las palabras clave y description para la descripción de la página. El atributo content se utiliza para especificar el valor del metadato.
+El atributo name del elemento `<meta>` se utiliza para especificar el tipo de metadato, como author para el autor, keywords para las palabras clave y description para la descripción de la página. El atributo content se utiliza para especificar el valor del metadato.
