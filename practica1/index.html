@@ -34,11 +34,9 @@
             </li>
         </ol>
         <p>Puede realizar consultas completando el siguiente formulario:</p>
-        <form>
-            <label for="nombre">e-mail:</label>
-            <input type="text" id="nombre" name="fname"><br>
-            <label for="consulta">consulta:</label>
-            <textarea type="text" id="consulta" name="consulta"></textarea><br>
+        <form action="mailto:x@x.com" method="post" enctype="text/plain">
+            email: <input type="text"><br>
+            consulta: <textarea type="text" ></textarea><br>
             <input type="submit" value="ENVIAR">
             <input type="submit" value="BORRAR">
         </form>

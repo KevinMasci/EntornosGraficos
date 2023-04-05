@@ -6,3 +6,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Test
+practica1/test.html
