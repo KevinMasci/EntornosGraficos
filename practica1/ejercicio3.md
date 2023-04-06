@@ -243,3 +243,38 @@ El ultimo segmento de codigo es un formulario dentro de un bloque `<fieldset>` a
 </label>
 ```
 Ambos son botones con una etiqueta. La diferencia es que el primero contiene una imagen dentro del boton con un texto en negrita y el segundo es solo el texto sin imagen.
+
+## j
+```
+<p><label><input type="radio" name="opcion" id="X" value="X" />X</label><br />
+    <label><input type="radio" name="opcion" id="Y" value="Y" />Y</label></p>
+<p><label><input type="radio" name="opcion1" id="X" value="X" />X</label><br />
+    <label><input type="radio" name="opcion2" id="Y" value="Y" />Y</label></p>
+```
+Se van a ver 4 radio buttons. Los dos primeros X e Y estan en el mismo grupo ya que tienen el mismo nombre como atributo, por esto al seleccionar uno se va a quitar la seleccion del otro. Los otros dos botones estan en diferentes grupos ya que sus atributos de nombre son diferentes y se podran seleccionar los dos a la vez.
+
+## k
+```
+<select name="lista">
+    <optgroup label="Caso 1">
+        <option>Mayo</option>
+        <option>Junio</option>
+    </optgroup>
+    <optgroup label="Caso 2">
+        <option>Mayo</option>
+        <option>Junio</option>
+    </optgroup>
+</select><br>
+<select name="lista[]" multiple="multiple">
+    <optgroup label=" Caso 1">
+        <option>Mayo</option>
+        <option>Junio</option>
+    </optgroup>
+    <optgroup label=" Caso 2">
+        <option>Mayo</option>
+        <option>Junio</option>
+    </optgroup>
+    </select>
+```
+La primera es una lista desplegable con dos subcategorias. Solo se puede elegir una opcion.
+La segunda es una lista igual a la primera pero con la diferencia de que se pueden elegir multiples opciones ya que tiene el atributo `multiple="multiple"`
