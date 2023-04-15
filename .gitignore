@@ -8,4 +8,5 @@ env.bak/
 venv.bak/
 
 # Test
-practica1/test.html
+test.html
+testilos.css
