@@ -1,0 +1,2 @@
+## Ejercicio 1
+Ambos códigos crean un array en PHP con las mismas claves y valores, pero utilizan diferentes sintaxis para lograrlo. El primer código utiliza la sintaxis de inicialización de array, donde se especifican las claves y los valores directamente dentro de los corchetes. Cada elemento del array se separa con una coma. El segundo código utiliza la sintaxis de asignación de elementos de array por índice. En este caso, se accede a cada elemento del array mediante su clave y se asigna un valor directamente.
