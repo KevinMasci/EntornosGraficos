@@ -39,7 +39,7 @@ Si la función `mysqli_query()` es exitosa, el conjunto resultante retornado se 
     // Recorre cada fila del resultado utilizando mysqli_fetch_array()
     while ($fila = mysqli_fetch_array($vResultado))
     {
-    ?>
+?>
         <tr> // Accede a cada valor de cada columna usando indices numericos
          <td><?php echo ($fila[0]); ?></td>
          <td><?php echo ($fila[1]); ?></td>
@@ -47,7 +47,7 @@ Si la función `mysqli_query()` es exitosa, el conjunto resultante retornado se 
         </tr>
         <tr>
          <td colspan="5">
-        <?php
+<?php
     }
     mysqli_free_result($vResultado); // Libera la memoria asociada al resultado
     mysqli_close($link); // Cierro la conexion con la base de datos
