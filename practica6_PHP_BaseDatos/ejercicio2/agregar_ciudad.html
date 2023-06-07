@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar ciudad</title>
+</head>
+<body>
+    <form action="create.php" method="POST" name="agregar_ciudad" style="display: flex; flex-direction: column; width: 250px;">
+        <label for="ciudad">Ciudad</label>
+        <input type="text" id="ciudad" name="ciudad"><br>
+ 
+        <label for="pais">Pais</label>
+        <input type="text" id="pais" name="pais"><br>
+
+        <label for="habitantes">Habitantes</label>
+        <input type="text" id="habitantes" name="habitantes"><br>
+
+        <label for="superficie">Superficie</label>
+        <input type="text" id="superficie" name="superficie"><br>
+        
+        <div>
+        <label for="tienemetro">Tiene metro?</label>
+        <input type="checkbox" id="tienemetro" name="tienemetro" value="1">
+        </div><br>
+
+        <input type="submit" value="Agregar">
+    </form><br>
+    <a href="index.php">Volver al menu ABML</a>
+</body>
+</html>
